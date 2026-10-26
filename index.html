@@ -101,7 +101,7 @@ ul, ol { margin: 0; padding: 0; }
 
 .lede { font-size: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem); line-height: 1.55; color: var(--ink-soft); max-width: 40rem; }
 .muted { color: var(--ink-soft); }
-.small { font-size: 0.9375rem; }
+.small { font-size: 1.0625rem; }
 
 /* ---------- Buttons and links ---------- */
 
@@ -121,7 +121,7 @@ ul, ol { margin: 0; padding: 0; }
 .btn--ghost:hover { border-color: var(--green); color: var(--green); }
 .btn--light { background: var(--paper); color: var(--green); }
 .btn--light:hover { background: #E4EDE8; color: var(--green); }
-.btn--sm { min-height: 2.6rem; padding: 0.6rem 1.05rem; font-size: 0.9375rem; }
+.btn--sm { min-height: 2.6rem; padding: 0.6rem 1.05rem; font-size: 1.0625rem; }
 .btn[disabled], .btn[aria-disabled="true"] { opacity: 0.55; cursor: not-allowed; }
 
 .ico { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex: none; }
@@ -158,7 +158,7 @@ ul, ol { margin: 0; padding: 0; }
 .site-nav ul { display: flex; gap: 1.75rem; list-style: none; }
 .site-nav ul a {
   position: relative; display: inline-block; padding: 0.5rem 0;
-  color: var(--on-dark); font-weight: 500; font-size: 0.98rem; text-decoration: none;
+  color: var(--on-dark); font-weight: 500; font-size: 1.0625rem; text-decoration: none;
 }
 .site-nav ul a::after {
   content: ""; position: absolute; left: 0; right: 0; bottom: 0.1rem; height: 2px;
@@ -200,7 +200,7 @@ ul, ol { margin: 0; padding: 0; }
   .nav-scrim[hidden] { display: none; }
   .site-nav ul { flex-direction: column; gap: 0; }
   .site-nav ul li + li { border-top: 1px solid rgba(255, 255, 255, 0.14); }
-  .site-nav ul a { display: block; padding: 0.95rem 0; font-size: 1.0625rem; }
+  .site-nav ul a { display: block; padding: 0.95rem 0; font-size: 1.125rem; }
   .site-nav ul a::after { display: none; }
   .site-nav .btn { width: 100%; }
   html:not(.js) .site-header__row { flex-wrap: wrap; padding-bottom: 1rem; }
@@ -244,7 +244,7 @@ ul, ol { margin: 0; padding: 0; }
 .hero__copy .lede { font-size: clamp(1.125rem, 1rem + 0.45vw, 1.4rem); }
 .hero__copy .lede { max-width: 36rem; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.5rem; }
-.hero__mail { font-size: 0.9375rem; color: var(--ink-soft); }
+.hero__mail { font-size: 1.0625rem; color: var(--ink-soft); }
 .hero__mail a { font-weight: 600; }
 
 .hero__panel {
@@ -275,7 +275,7 @@ ul, ol { margin: 0; padding: 0; }
 .hero__practices li + li { border-left: 1px solid rgba(255, 255, 255, 0.16); }
 .hero__practices a {
   display: flex; align-items: center; gap: 0.6rem; height: 100%;
-  padding: 1.1rem 1rem 1.25rem; color: var(--on-dark); font-size: 0.9375rem; font-weight: 600; text-decoration: none;
+  padding: 1.1rem 1rem 1.25rem; color: var(--on-dark); font-size: 1.0625rem; font-weight: 600; text-decoration: none;
 }
 .hero__practices li:first-child a { padding-left: 0; }
 .hero__practices a::before { content: ""; flex: none; width: 7px; height: 7px; background: var(--gold); transform: rotate(45deg); }
@@ -285,11 +285,11 @@ ul, ol { margin: 0; padding: 0; }
   display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: 1.5rem 3rem; align-items: start;
   padding: 2rem 0 2.25rem;
 }
-.creds__lead { font-size: 0.9375rem; color: var(--ink-soft); }
+.creds__lead { font-size: 1.0625rem; color: var(--ink-soft); }
 .creds__lead b { display: block; font: 600 1.125rem/1.3 var(--font-display); color: var(--ink); margin-bottom: 0.2rem; }
 .creds ul { list-style: none; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1.25rem; }
-.creds li { display: grid; gap: 0.2rem; align-content: start; font-size: 0.875rem; color: var(--ink-soft); line-height: 1.4; padding-left: 1rem; border-left: 1px solid var(--rule); }
-.creds li b { font-size: 0.9375rem; color: var(--ink); font-weight: 600; }
+.creds li { display: grid; gap: 0.2rem; align-content: start; font-size: 1rem; color: var(--ink-soft); line-height: 1.4; padding-left: 1rem; border-left: 1px solid var(--rule); }
+.creds li b { font-size: 1.0625rem; color: var(--ink); font-weight: 600; }
 
 @media (prefers-reduced-motion: no-preference) {
   .hero__copy > * { animation: rise 0.9s var(--ease-out) both; }
@@ -330,31 +330,31 @@ ul, ol { margin: 0; padding: 0; }
 
 .glance { background: var(--paper); border: 1px solid var(--rule); border-top: 2px solid var(--gold); padding: 1.4rem 1.6rem 1.5rem; display: grid; gap: 0.75rem; align-content: start; }
 .glance__title { font: 600 1.125rem/1.3 var(--font-display); }
-.glance p { color: var(--ink-soft); font-size: 0.9375rem; }
+.glance p { color: var(--ink-soft); font-size: 1.0625rem; }
 .glance__links { list-style: none; border-top: 1px solid var(--rule); }
 .glance__links a {
   display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-  padding: 0.7rem 0; border-bottom: 1px solid var(--rule); color: var(--ink); font-weight: 500; font-size: 0.9375rem; text-decoration: none;
+  padding: 0.7rem 0; border-bottom: 1px solid var(--rule); color: var(--ink); font-weight: 500; font-size: 1.0625rem; text-decoration: none;
 }
 .glance__links li:last-child a { border-bottom: 0; padding-bottom: 0; }
 .glance__links a .ico { width: 0.95rem; height: 0.95rem; color: var(--green); transition: transform 0.25s var(--ease-out); }
 .glance__links a:hover { color: var(--green); }
 .glance__links a:hover .ico { transform: translateX(3px); }
-.glance__links--desc span { display: grid; gap: 0.1rem; font-size: 0.875rem; color: var(--ink-soft); font-weight: 400; }
-.glance__links--desc b { font-size: 0.9375rem; color: var(--ink); font-weight: 600; }
+.glance__links--desc span { display: grid; gap: 0.1rem; font-size: 1rem; color: var(--ink-soft); font-weight: 400; }
+.glance__links--desc b { font-size: 1.0625rem; color: var(--ink); font-weight: 600; }
 .glance__facts { display: grid; margin: 0; border-top: 1px solid var(--rule); }
 .glance__facts div { display: grid; gap: 0.15rem; padding: 0.75rem 0; border-bottom: 1px solid var(--rule); }
 .glance__facts div:last-child { border-bottom: 0; padding-bottom: 0; }
-.glance__facts dt { font-size: 0.8125rem; font-weight: 600; color: var(--gold-ink); }
-.glance__facts dd { margin: 0; font-size: 0.9375rem; }
+.glance__facts dt { font-size: 0.9375rem; font-weight: 600; color: var(--gold-ink); }
+.glance__facts dd { margin: 0; font-size: 1.0625rem; }
 .page-head h1 { max-width: 18ch; font-size: clamp(2.375rem, 1.6rem + 2.8vw, 3.75rem); }
-.crumbs { font-size: 0.875rem; color: var(--ink-soft); }
+.crumbs { font-size: 1rem; color: var(--ink-soft); }
 .crumbs a { color: var(--ink-soft); }
 .crumbs a:hover { color: var(--green); }
 .subnav { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; margin-top: 0.75rem; }
 .subnav a {
   display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--rule-strong); border-radius: 999px;
-  background: var(--paper); color: var(--ink); font-size: 0.9rem; font-weight: 500; text-decoration: none;
+  background: var(--paper); color: var(--ink); font-size: 1rem; font-weight: 500; text-decoration: none;
 }
 .subnav a:hover { border-color: var(--green); color: var(--green); }
 
@@ -362,7 +362,7 @@ ul, ol { margin: 0; padding: 0; }
 
 .band { background: var(--green-deep); color: var(--on-dark); border-bottom: 3px solid var(--gold); }
 .band__row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 2.5rem; min-height: 4.5rem; padding-top: 0.9rem; padding-bottom: 0.9rem; }
-.band__label { color: var(--on-green-soft); font-size: 0.9375rem; }
+.band__label { color: var(--on-green-soft); font-size: 1.0625rem; }
 .band ul { display: flex; flex-wrap: wrap; gap: 0.5rem 2.25rem; list-style: none; }
 .band a { color: var(--on-dark); font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 0.6rem; }
 .band a::before { content: ""; width: 7px; height: 7px; background: var(--gold); transform: rotate(45deg); }
@@ -376,7 +376,7 @@ ul, ol { margin: 0; padding: 0; }
 .svc-list { list-style: none; margin-top: 0.5rem; border-top: 1px solid var(--rule); }
 .svc-list li { display: grid; gap: 0.2rem; padding: 0.95rem 0; border-bottom: 1px solid var(--rule); }
 .svc-list b { font-weight: 600; }
-.svc-list span { color: var(--ink-soft); font-size: 0.9375rem; }
+.svc-list span { color: var(--ink-soft); font-size: 1.0625rem; }
 .practice .text-link { margin-top: 0.5rem; }
 @media (max-width: 860px) { .practices { grid-template-columns: 1fr; } }
 
@@ -388,13 +388,13 @@ ul, ol { margin: 0; padding: 0; }
   background: var(--paper); border: 1px solid var(--rule);
   padding: 1.6rem 1.4rem 1.4rem; border-top: 3px solid var(--green);
 }
-.stage__when { font-size: 0.8125rem; font-weight: 600; color: var(--gold-ink); letter-spacing: 0.02em; }
-.stage ul { list-style: none; display: grid; gap: 0.5rem; font-size: 0.9375rem; color: var(--ink-soft); }
+.stage__when { font-size: 0.9375rem; font-weight: 600; color: var(--gold-ink); letter-spacing: 0.02em; }
+.stage ul { list-style: none; display: grid; gap: 0.5rem; font-size: 1.0625rem; color: var(--ink-soft); }
 .stage li { display: grid; grid-template-columns: 0.9rem 1fr; gap: 0.4rem; }
 .stage li::before { content: ""; width: 5px; height: 5px; margin-top: 0.62em; background: var(--gold); transform: rotate(45deg); }
-.stage__out { font-size: 0.875rem; padding-top: 0.85rem; border-top: 1px solid var(--rule); color: var(--ink-soft); }
+.stage__out { font-size: 1rem; padding-top: 0.85rem; border-top: 1px solid var(--rule); color: var(--ink-soft); }
 .stage__out b { color: var(--ink); font-weight: 600; display: block; }
-.stage p:not([class]) { color: var(--ink-soft); font-size: 0.9375rem; }
+.stage p:not([class]) { color: var(--ink-soft); font-size: 1.0625rem; }
 @media (max-width: 1080px) { .stages { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .stages { grid-template-columns: 1fr; } }
 
@@ -409,10 +409,10 @@ ul, ol { margin: 0; padding: 0; }
 /* ---------- Table ---------- */
 
 .table-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--paper); }
-.table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; min-width: 40rem; }
-.table caption { text-align: left; padding: 1rem 1.25rem; font-size: 0.875rem; color: var(--ink-soft); border-bottom: 1px solid var(--rule); caption-side: top; }
+.table { width: 100%; border-collapse: collapse; font-size: 1.0625rem; min-width: 40rem; }
+.table caption { text-align: left; padding: 1rem 1.25rem; font-size: 1rem; color: var(--ink-soft); border-bottom: 1px solid var(--rule); caption-side: top; }
 .table th, .table td { text-align: left; vertical-align: top; padding: 1rem 1.25rem; border-bottom: 1px solid var(--rule); }
-.table thead th { font-size: 0.8125rem; font-weight: 600; color: var(--ink-soft); background: var(--surface); letter-spacing: 0.02em; }
+.table thead th { font-size: 0.9375rem; font-weight: 600; color: var(--ink-soft); background: var(--surface); letter-spacing: 0.02em; }
 .table tbody th { font-weight: 600; color: var(--ink); white-space: nowrap; }
 .table tbody tr:last-child > * { border-bottom: 0; }
 .table td:last-child { color: var(--ink-soft); }
@@ -433,13 +433,13 @@ ul, ol { margin: 0; padding: 0; }
 .founder { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
 .founder__intro { display: grid; gap: 1.1rem; }
 .founder__intro > p { color: var(--ink-soft); }
-.founder__name { font-size: 1rem; color: var(--ink-soft); }
+.founder__name { font-size: 1.0625rem; color: var(--ink-soft); }
 .founder__name b { display: block; font: 600 1.375rem/1.3 var(--font-display); color: var(--ink); }
 .seats { background: var(--paper); border: 1px solid var(--rule); border-radius: var(--radius); padding: clamp(1.5rem, 3vw, 2rem); display: grid; gap: 1.25rem; }
 .seats h3 { font-size: 1.25rem; }
-.seats__side { font-size: 0.8125rem; font-weight: 600; color: var(--gold-ink); letter-spacing: 0.02em; margin-bottom: 0.25rem; }
+.seats__side { font-size: 0.9375rem; font-weight: 600; color: var(--gold-ink); letter-spacing: 0.02em; margin-bottom: 0.25rem; }
 .seats ul { list-style: none; }
-.seats li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid var(--rule); font-size: 0.9375rem; }
+.seats li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid var(--rule); font-size: 1.0625rem; }
 .seats li:last-child { border-bottom: 0; }
 .seats li b { font-weight: 600; }
 .seats li span { color: var(--ink-soft); text-align: right; }
@@ -452,7 +452,7 @@ ul, ol { margin: 0; padding: 0; }
 .faq details { border-bottom: 1px solid var(--rule); }
 .faq summary {
   list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 1.5rem;
-  padding: 1.2rem 0; font-weight: 600; font-size: 1.0625rem;
+  padding: 1.2rem 0; font-weight: 600; font-size: 1.125rem;
 }
 .faq summary::-webkit-details-marker { display: none; }
 .faq summary::after {
@@ -477,13 +477,13 @@ ul, ol { margin: 0; padding: 0; }
 .ways { list-style: none; border-top: 2px solid var(--gold); }
 .ways li { display: grid; gap: 0.25rem; padding: 1.1rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.16); }
 .ways b { font: 600 1.125rem/1.3 var(--font-display); }
-.ways span { color: var(--on-green-soft); font-size: 0.9375rem; }
-.ways-note { color: var(--on-green-soft); font-size: 0.9375rem; margin-top: 1rem; }
+.ways span { color: var(--on-green-soft); font-size: 1.0625rem; }
+.ways-note { color: var(--on-green-soft); font-size: 1.0625rem; margin-top: 1rem; }
 @media (max-width: 860px) { .cta__grid { grid-template-columns: 1fr; } }
 
 /* ---------- Footer ---------- */
 
-.site-footer { background: var(--green-deep); color: var(--on-green-soft); font-size: 0.9375rem; }
+.site-footer { background: var(--green-deep); color: var(--on-green-soft); font-size: 1.0625rem; }
 .site-footer a { color: var(--on-dark); text-decoration: none; }
 .site-footer a:hover { color: var(--gold-hi); text-decoration: underline; }
 .footer__grid { display: grid; grid-template-columns: minmax(0, 1.4fr) repeat(2, minmax(0, 0.6fr)); gap: 2.5rem; padding: clamp(3rem, 6vw, 4.5rem) 0 2.5rem; }
@@ -492,7 +492,7 @@ ul, ol { margin: 0; padding: 0; }
 .footer__brand .brand__word span { color: var(--on-green-soft); }
 .footer__col h2 { font: 600 0.8125rem/1.4 var(--font-text); letter-spacing: 0.04em; color: var(--on-green-soft); margin-bottom: 0.9rem; }
 .footer__col ul { list-style: none; display: grid; gap: 0.6rem; }
-.footer__base { border-top: 1px solid rgba(255, 255, 255, 0.14); padding: 1.25rem 0 1.75rem; font-size: 0.8125rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 2rem; }
+.footer__base { border-top: 1px solid rgba(255, 255, 255, 0.14); padding: 1.25rem 0 1.75rem; font-size: 0.9375rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 2rem; }
 @media (max-width: 760px) { .footer__grid { grid-template-columns: 1fr 1fr; } .footer__brand { grid-column: 1 / -1; } }
 
 /* ---------- Services page ---------- */
@@ -500,7 +500,7 @@ ul, ol { margin: 0; padding: 0; }
 .svc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 clamp(2rem, 4vw, 3.5rem); border-top: 1px solid var(--rule); }
 .svc { display: grid; gap: 0.6rem; padding: 1.75rem 0; border-bottom: 1px solid var(--rule); align-content: start; }
 .svc p { color: var(--ink-soft); }
-.svc .deliv { font-size: 0.9375rem; }
+.svc .deliv { font-size: 1.0625rem; }
 .svc .deliv b { color: var(--ink); font-weight: 600; }
 .example {
   margin-top: 2rem; display: grid; grid-template-columns: minmax(0, 14rem) 1fr; gap: 0.5rem 2rem;
@@ -514,18 +514,18 @@ ul, ol { margin: 0; padding: 0; }
 
 .steps4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; list-style: none; counter-reset: s; }
 .steps4 li { display: grid; gap: 0.5rem; border-top: 2px solid var(--gold); padding-top: 1rem; }
-.steps4 p { color: var(--ink-soft); font-size: 0.9375rem; }
+.steps4 p { color: var(--ink-soft); font-size: 1.0625rem; }
 @media (max-width: 860px) { .steps4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 480px) { .steps4 { grid-template-columns: 1fr; } }
 
 .models { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; list-style: none; }
 .model { display: grid; grid-template-rows: auto 1fr auto; gap: 0.75rem; background: var(--paper); border: 1px solid var(--rule); border-radius: var(--radius); padding: 1.6rem; }
-.model p { color: var(--ink-soft); font-size: 0.9375rem; }
-.model .deliv { font-size: 0.875rem; padding-top: 0.8rem; border-top: 1px solid var(--rule); }
+.model p { color: var(--ink-soft); font-size: 1.0625rem; }
+.model .deliv { font-size: 1rem; padding-top: 0.8rem; border-top: 1px solid var(--rule); }
 .model .deliv b { display: block; color: var(--ink); }
 @media (max-width: 860px) { .models { grid-template-columns: 1fr; } }
 
-.note { font-size: 0.875rem; color: var(--ink-soft); margin-top: 1.5rem; max-width: 46rem; }
+.note { font-size: 1rem; color: var(--ink-soft); margin-top: 1.5rem; max-width: 46rem; }
 
 /* ---------- Industries page ---------- */
 
@@ -536,7 +536,7 @@ ul, ol { margin: 0; padding: 0; }
 .help h3 { font-size: 1.125rem; }
 .help p { color: var(--ink-soft); }
 .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; }
-.tags li { padding: 0.35rem 0.75rem; border: 1px solid var(--rule-strong); border-radius: 999px; font-size: 0.875rem; background: var(--paper); }
+.tags li { padding: 0.35rem 0.75rem; border: 1px solid var(--rule-strong); border-radius: 999px; font-size: 1rem; background: var(--paper); }
 @media (max-width: 860px) { .industry { grid-template-columns: 1fr; } }
 
 .venn { width: 100%; max-width: 26rem; justify-self: center; }
@@ -560,7 +560,7 @@ ul, ol { margin: 0; padding: 0; }
 .progress { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); list-style: none; border-bottom: 1px solid var(--rule); }
 .progress li {
   position: relative; display: flex; align-items: center; gap: 0.6rem;
-  padding: 1rem 1.1rem; font-size: 0.875rem; font-weight: 500; color: var(--ink-soft);
+  padding: 1rem 1.1rem; font-size: 1rem; font-weight: 500; color: var(--ink-soft);
 }
 .progress li + li { border-left: 1px solid var(--rule); }
 .progress__n {
@@ -573,7 +573,7 @@ ul, ol { margin: 0; padding: 0; }
 .progress li.is-done .progress__n { background: var(--surface); border-color: var(--gold); color: var(--gold-ink); }
 html:not(.js) .progress { display: none; }
 @media (max-width: 640px) {
-  .progress li { flex-direction: column; align-items: flex-start; gap: 0.35rem; padding: 0.8rem 0.75rem; font-size: 0.75rem; }
+  .progress li { flex-direction: column; align-items: flex-start; gap: 0.35rem; padding: 0.8rem 0.75rem; font-size: 0.875rem; }
 }
 
 .step { border: 0; margin: 0; padding: clamp(1.4rem, 3vw, 2.25rem); display: grid; gap: 1.25rem; min-width: 0; }
@@ -583,7 +583,7 @@ html:not(.js) .step + .step { border-top: 1px solid var(--rule); }
 .step legend + * { clear: both; }
 .step__title { font: 600 clamp(1.4rem, 1.2rem + 0.6vw, 1.75rem)/1.2 var(--font-display); letter-spacing: -0.01em; color: var(--ink); }
 .step__title:focus { outline: none; }
-.step__hint { color: var(--ink-soft); font-size: 0.9375rem; margin-top: -0.5rem; }
+.step__hint { color: var(--ink-soft); font-size: 1.0625rem; margin-top: -0.5rem; }
 html:not(.js) .step--review { display: none; }
 
 .choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
@@ -602,7 +602,7 @@ html:not(.js) .step--review { display: none; }
 }
 .choice input[type="checkbox"] + .choice__box .choice__mark { border-radius: 3px; }
 .choice__box b { font-weight: 600; }
-.choice__box small { color: var(--ink-soft); font-size: 0.875rem; line-height: 1.45; }
+.choice__box small { color: var(--ink-soft); font-size: 1rem; line-height: 1.45; }
 .choice:hover .choice__box { border-color: var(--green-hi); }
 .choice input:checked + .choice__box { border-color: var(--green); background: #EEF3EF; box-shadow: inset 0 0 0 1px var(--green); }
 .choice input:checked + .choice__box .choice__mark { border-color: var(--green); background: var(--green); }
@@ -616,11 +616,11 @@ html:not(.js) .step--review { display: none; }
 .fields .full { grid-column: 1 / -1; }
 @media (max-width: 600px) { .fields { grid-template-columns: 1fr; } }
 .field { display: grid; gap: 0.4rem; }
-.field label { font-weight: 600; font-size: 0.9375rem; }
+.field label { font-weight: 600; font-size: 1.0625rem; }
 .field .opt { font-weight: 400; color: var(--ink-soft); }
 .field input, .field select, .field textarea {
   width: 100%; min-height: 3rem; padding: 0.7rem 0.85rem;
-  font: inherit; font-size: 1rem; color: var(--ink); background: var(--paper);
+  font: inherit; font-size: 1.0625rem; color: var(--ink); background: var(--paper);
   border: 1px solid var(--rule-strong); border-radius: var(--radius);
   transition: border-color 0.15s, box-shadow 0.15s;
 }
@@ -628,7 +628,7 @@ html:not(.js) .step--review { display: none; }
 .field input:hover, .field select:hover, .field textarea:hover { border-color: #9AA6A0; }
 .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px rgba(23, 74, 61, 0.18); }
 .field [aria-invalid="true"] { border-color: var(--error); }
-.field__err, .step__err { color: var(--error); font-size: 0.875rem; font-weight: 500; min-height: 0; }
+.field__err, .step__err { color: var(--error); font-size: 1rem; font-weight: 500; min-height: 0; }
 .field__err:empty, .step__err:empty { display: none; }
 .hp { position: absolute !important; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 
@@ -638,21 +638,21 @@ html:not(.js) .step__nav [data-back], html:not(.js) .step__nav [data-next] { dis
 .js .nojs-submit { display: none; }
 
 .review { display: grid; border-top: 1px solid var(--rule); }
-.review div { display: grid; grid-template-columns: minmax(0, 11rem) 1fr auto; gap: 1rem; padding: 0.9rem 0; border-bottom: 1px solid var(--rule); font-size: 0.9375rem; }
+.review div { display: grid; grid-template-columns: minmax(0, 11rem) 1fr auto; gap: 1rem; padding: 0.9rem 0; border-bottom: 1px solid var(--rule); font-size: 1.0625rem; }
 .review dt { font-weight: 600; }
 .review dd { margin: 0; color: var(--ink-soft); white-space: pre-line; overflow-wrap: anywhere; }
 .review button { background: none; border: 0; padding: 0; font: 600 0.875rem var(--font-text); color: var(--green); text-decoration: underline; text-underline-offset: 0.2em; cursor: pointer; }
 @media (max-width: 600px) { .review div { grid-template-columns: 1fr auto; } .review dd { grid-column: 1 / -1; grid-row: 2; } }
-.status { font-size: 0.9375rem; padding: 0.9rem 1rem; border-radius: var(--radius); background: #EEF3EF; border: 1px solid #B4C1BB; color: var(--ink); }
+.status { font-size: 1.0625rem; padding: 0.9rem 1rem; border-radius: var(--radius); background: #EEF3EF; border: 1px solid #B4C1BB; color: var(--ink); }
 .status:empty { display: none; }
 
 .aside-card { display: grid; gap: 1.1rem; }
 .aside-card + .aside-card { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
 .aside-card h2 { font-size: 1.375rem; }
-.aside-card p { color: var(--ink-soft); font-size: 0.9375rem; }
+.aside-card p { color: var(--ink-soft); font-size: 1.0625rem; }
 .direct-mail { font: 600 1.125rem var(--font-text); overflow-wrap: anywhere; }
 .next-steps { list-style: none; display: grid; gap: 1rem; counter-reset: n; }
-.next-steps li { display: grid; grid-template-columns: 1.9rem 1fr; gap: 0.75rem; font-size: 0.9375rem; color: var(--ink-soft); counter-increment: n; }
+.next-steps li { display: grid; grid-template-columns: 1.9rem 1fr; gap: 0.75rem; font-size: 1.0625rem; color: var(--ink-soft); counter-increment: n; }
 .next-steps li::before {
   content: counter(n); display: grid; place-items: center; width: 1.9rem; height: 1.9rem; border-radius: 50%;
   border: 1px solid var(--gold); color: var(--gold-ink); font-weight: 600; font-size: 0.875rem;
@@ -831,7 +831,7 @@ h3 { letter-spacing: -0.015em; }
 .creds--line { grid-template-columns: auto 1fr; align-items: center; gap: 0.75rem 2.5rem; padding: 1.4rem 0; border-bottom: 1px solid var(--rule); }
 .creds--line .creds__lead b { display: inline; margin-right: 0.5rem; font: 600 1.0625rem var(--font-text); }
 .creds--line ul { display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem; align-items: center; }
-.creds--line li { padding: 0; border: 0; font-weight: 600; font-size: 0.9375rem; color: var(--ink); }
+.creds--line li { padding: 0; border: 0; font-weight: 600; font-size: 1.0625rem; color: var(--ink); }
 @media (max-width: 1080px) { .creds--line { grid-template-columns: 1fr; } }
 
 /* Entry reveal: already visible without JS, fully visible once in view */
@@ -851,10 +851,10 @@ h3 { letter-spacing: -0.015em; }
 }
 .symptom:hover .symptom__face--front { transform: translateY(-2px); box-shadow: 0 2px 4px rgba(16, 32, 28, 0.05), 0 18px 36px -16px rgba(16, 32, 28, 0.22); }
 .symptom__face--back { transform: rotateY(180deg); background: var(--green); color: var(--on-dark); border-color: transparent; }
-.symptom__area { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8125rem; font-weight: 600; color: var(--green-hi); }
+.symptom__area { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9375rem; font-weight: 600; color: var(--green-hi); }
 .symptom__area::before { content: ""; width: 7px; height: 7px; background: var(--gold); transform: rotate(45deg); }
 .symptom__face--back .symptom__area { color: var(--on-green-soft); }
-.symptom__what { font-size: 1.0625rem; font-weight: 500; line-height: 1.4; letter-spacing: -0.01em; }
+.symptom__what { font-size: 1.125rem; font-weight: 500; line-height: 1.4; letter-spacing: -0.01em; }
 .symptom__flip {
   justify-self: start; display: inline-flex; align-items: center; gap: 0.45rem; background: none; border: 0; padding: 0;
   font: 600 0.9375rem var(--font-text); color: var(--green); cursor: pointer;
@@ -896,15 +896,15 @@ h3 { letter-spacing: -0.015em; }
 .journey__dot { width: 14px; height: 14px; border-radius: 50%; background: var(--paper); border: 2px solid var(--rule-strong); margin-bottom: 0.4rem; transition: background-color 0.2s, border-color 0.2s; }
 .journey__track [role="tab"].is-passed .journey__dot { background: var(--green); border-color: var(--green); }
 .journey__track [role="tab"].is-active .journey__dot { opacity: 0; }
-.journey__when { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.02em; }
-.journey__track [role="tab"] b { font-size: 1.0625rem; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
+.journey__when { font-size: 0.875rem; font-weight: 600; letter-spacing: 0.02em; }
+.journey__track [role="tab"] b { font-size: 1.125rem; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
 .journey__track [role="tab"][aria-selected="true"], .journey__track [role="tab"][aria-selected="true"] b { color: var(--green); }
 .journey__track [role="tab"]:hover b { color: var(--green-hi); }
 .journey__panel { padding: clamp(1.5rem, 3vw, 2.25rem); }
 .journey__grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) minmax(0, 0.9fr); gap: 2rem clamp(1.5rem, 3vw, 3rem); }
 .journey__grid h3 { font-size: clamp(1.4rem, 1.2rem + 0.6vw, 1.75rem); margin-bottom: 0.6rem; }
 .journey__grid p { color: var(--ink-soft); }
-.journey__k { font-size: 0.8125rem; font-weight: 600; color: var(--green-hi) !important; margin-bottom: 0.5rem; }
+.journey__k { font-size: 0.9375rem; font-weight: 600; color: var(--green-hi) !important; margin-bottom: 0.5rem; }
 .journey__grid ul { list-style: none; display: grid; gap: 0.5rem; color: var(--ink-soft); }
 .journey__grid li { display: grid; grid-template-columns: 0.9rem 1fr; gap: 0.4rem; }
 .journey__grid li::before { content: ""; width: 6px; height: 6px; margin-top: 0.6em; border-radius: 50%; background: var(--green-hi); }
@@ -922,7 +922,7 @@ h3 { letter-spacing: -0.015em; }
   .journey__track::after { left: calc(0.75rem + (100% - 1.5rem) / 8); width: calc((100% - 1.5rem) * var(--jx) / 4); }
   .journey__marker { top: calc(1.25rem - 1px); left: calc(0.75rem + (100% - 1.5rem) * (2 * var(--jx) + 1) / 8); }
   .journey__when { display: none; }
-  .journey__track [role="tab"] b { font-size: 0.875rem; }
+  .journey__track [role="tab"] b { font-size: 1rem; }
 }
 
 /* ---------- Method steps and engagement shapes ---------- */
@@ -935,13 +935,13 @@ h3 { letter-spacing: -0.015em; }
   background: var(--green); color: var(--on-dark); font-weight: 600; font-size: 0.875rem; box-shadow: 0 0 0 6px var(--paper);
 }
 .method b { font-size: 1.125rem; font-weight: 600; }
-.method p { color: var(--ink-soft); font-size: 0.9375rem; }
+.method p { color: var(--ink-soft); font-size: 1.0625rem; }
 .engage__sub { margin: 2.5rem 0 1rem; font-size: 1.125rem; }
 .shapes { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .shapes li { display: grid; gap: 0.4rem; align-content: start; padding: 1.4rem; background: var(--surface); border-radius: var(--radius-lg); }
 .shapes b { font-weight: 600; }
-.shapes span { color: var(--ink-soft); font-size: 0.9375rem; }
-.shapes em { font-style: normal; font-size: 0.875rem; font-weight: 600; color: var(--green); margin-top: 0.25rem; }
+.shapes span { color: var(--ink-soft); font-size: 1.0625rem; }
+.shapes em { font-style: normal; font-size: 1rem; font-weight: 600; color: var(--green); margin-top: 0.25rem; }
 @media (max-width: 860px) {
   .method { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .method::before { display: none; }
@@ -975,8 +975,8 @@ h3 { letter-spacing: -0.015em; }
 }
 .overlap__list a:hover, .overlap__list a:focus-visible { border-color: var(--green); box-shadow: var(--shadow-card); transform: translateX(4px); color: var(--ink); }
 .overlap__list .icon-tile { grid-row: span 2; width: 2.5rem; height: 2.5rem; }
-.overlap__list b { font-weight: 600; font-size: 1.0625rem; }
-.overlap__list span:not(.icon-tile) { color: var(--ink-soft); font-size: 0.9375rem; }
+.overlap__list b { font-weight: 600; font-size: 1.125rem; }
+.overlap__list span:not(.icon-tile) { color: var(--ink-soft); font-size: 1.0625rem; }
 .overlap__all { grid-template-columns: 1fr; background: var(--tint); border-color: transparent; }
 .overlap__all:hover { border-color: var(--gold); }
 @media (max-width: 900px) { .overlap { grid-template-columns: 1fr; } }
@@ -994,7 +994,7 @@ h3 { letter-spacing: -0.015em; }
   background: var(--gold); color: var(--green-deep); font-weight: 700; box-shadow: 0 0 0 6px var(--green);
 }
 .next-path b { font-size: 1.125rem; font-weight: 600; }
-.next-path li > span:not(.next-path__n) { color: var(--on-green-soft); font-size: 0.9375rem; }
+.next-path li > span:not(.next-path__n) { color: var(--on-green-soft); font-size: 1.0625rem; }
 .next-path__act { display: grid; justify-items: start; align-content: start; gap: 0.85rem; padding-top: 0; }
 .next-path__act a:not(.btn) { color: var(--on-dark); }
 .next-path__act a:not(.btn):hover { color: var(--gold-hi); }
@@ -1041,15 +1041,15 @@ h3 { letter-spacing: -0.015em; }
   width: 4.75rem; height: 4.75rem; border-radius: 50%; border: 2px solid var(--gold); display: grid; place-items: center;
   font-weight: 600; font-size: 1.55rem; letter-spacing: 0.03em; color: var(--gold-hi); margin-bottom: 0.35rem;
 }
-.founder-card__name { font-size: 0.9375rem; }
+.founder-card__name { font-size: 1.0625rem; }
 .founder-card__name b { display: block; font-size: clamp(1.6rem, 1.3rem + 0.9vw, 2.2rem); line-height: 1.15; letter-spacing: -0.025em; color: var(--on-dark); margin-bottom: 0.25rem; }
-.founder-card__fact { padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.16); font-size: 0.9375rem; }
+.founder-card__fact { padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.16); font-size: 1.0625rem; }
 .founder-card__who .btn { justify-self: start; margin-top: 0.5rem; }
 .founder-card__seats { padding: clamp(2rem, 4vw, 3.25rem); display: grid; gap: 1rem; align-content: start; background: var(--paper); }
 .founder-card__seats h3 { font-size: 1.25rem; }
 .founder-card__seats--solo { border: 1px solid var(--rule); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); }
 .ledger { display: grid; gap: 0.75rem; }
-.ledger__side { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.75rem; font-size: 0.8125rem; font-weight: 600; color: var(--green-hi); }
+.ledger__side { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.75rem; font-size: 0.9375rem; font-weight: 600; color: var(--green-hi); }
 .ledger__side::before { content: ""; width: 7px; height: 7px; background: var(--gold); transform: rotate(45deg); }
 .ledger ul { list-style: none; border-top: 1px solid var(--rule); }
 .ledger li {
@@ -1067,7 +1067,7 @@ h3 { letter-spacing: -0.015em; }
 .ledger li:hover .ledger__logo img { filter: none; opacity: 1; }
 .ledger__text { display: grid; gap: 0.1rem; }
 .ledger__text b { font-weight: 600; }
-.ledger__text span { color: var(--ink-soft); font-size: 0.9375rem; }
+.ledger__text span { color: var(--ink-soft); font-size: 1.0625rem; }
 @media (max-width: 1000px) { .founder-card { grid-template-columns: 1fr; } }
 @media (max-width: 560px) {
   .ledger li { grid-template-columns: 5.5rem minmax(0, 1fr); gap: 0.9rem; padding: 0.8rem 0; }
@@ -1076,7 +1076,7 @@ h3 { letter-spacing: -0.015em; }
   .ledger__logo img[src$="northeastern.svg"] { max-height: 1.1rem; }
   .ledger__logo img[src$="wvu-medicine.png"] { max-height: 1.2rem; }
   .ledger__logo img[src$="pwc.svg"] { max-height: 1.7rem; }
-  .ledger__text span { font-size: 0.875rem; }
+  .ledger__text span { font-size: 1rem; }
 }
 
 /* ---------- Fix batch and motion hooks ---------- */
@@ -1130,7 +1130,7 @@ h3 { letter-spacing: -0.015em; }
 }
 
 /* Credentials line: tighter wrap on phones */
-@media (max-width: 560px) { .creds--line ul { gap: 0.35rem 1.1rem; } .creds--line li { font-size: 0.875rem; } }
+@media (max-width: 560px) { .creds--line ul { gap: 0.35rem 1.1rem; } .creds--line li { font-size: 1rem; } }
 
 /* Journey panel: comfortable padding on phones */
 @media (max-width: 480px) { .journey__panel { padding: 1.4rem 1.25rem 1.5rem; } }
@@ -1170,11 +1170,11 @@ main:focus { outline: none; }
 .brand img { width: 2.9rem; height: auto; }
 
 /* Hero: summary paragraph and a caption under the mark */
-.hero__summary { color: var(--ink-soft); max-width: 36rem; font-size: 1.0625rem; }
+.hero__summary { color: var(--ink-soft); max-width: 36rem; font-size: 1.125rem; }
 .hero__copy .lede { color: var(--ink); font-weight: 500; }
 .hero__caption { display: grid; gap: 0.3rem; justify-items: center; text-align: center; margin-top: 0.5rem; }
 .hero__caption b { font-size: clamp(1.125rem, 1rem + 0.4vw, 1.35rem); font-weight: 600; letter-spacing: -0.015em; color: var(--ink); }
-.hero__caption span { font-size: 0.9375rem; color: var(--ink-soft); }
+.hero__caption span { font-size: 1.0625rem; color: var(--ink-soft); }
 .hero__panel { grid-template-rows: 1fr auto; }
 @media (max-width: 860px) { .hero__caption { display: none; } }
 
@@ -1191,7 +1191,7 @@ main:focus { outline: none; }
 .journey__grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 0.7fr); align-items: start; }
 .journey__go { display: grid; justify-items: start; gap: 0.5rem; }
 .journey__go .btn { margin-top: 0; }
-.journey__go p { font-size: 0.875rem; }
+.journey__go p { font-size: 1rem; }
 @media (max-width: 860px) {
   .journey__track::before { left: calc(0.75rem + (100% - 1.5rem) / (2 * var(--jn))); right: calc(0.75rem + (100% - 1.5rem) / (2 * var(--jn))); }
   .journey__track::after { left: calc(0.75rem + (100% - 1.5rem) / (2 * var(--jn))); width: calc((100% - 1.5rem) * var(--jx) / var(--jn)); }
@@ -1201,7 +1201,7 @@ main:focus { outline: none; }
 
 /* Practice cards: the short promise and the typical work line */
 .practice .practice__say { font-size: clamp(1.2rem, 1.1rem + 0.4vw, 1.4rem); font-weight: 600; letter-spacing: -0.025em; line-height: 1.15; color: var(--ink); }
-.practice .practice__work { font-size: 0.9375rem; color: var(--ink-soft); }
+.practice .practice__work { font-size: 1.0625rem; color: var(--ink-soft); }
 .practice__work b { color: var(--ink); font-weight: 600; }
 
 /* Method with three steps */
@@ -1239,8 +1239,29 @@ main:focus { outline: none; }
 .choices--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 @media (max-width: 600px) { .choices--4 { grid-template-columns: 1fr; } }
 .progress--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.form-note { font-size: 0.875rem; color: var(--ink-soft); }
+.form-note { font-size: 1rem; color: var(--ink-soft); }
 .field input::placeholder, .field textarea::placeholder { color: var(--ink-soft); opacity: 0.75; }
+
+
+/* Services & Industries page */
+.ind-cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+.ind-card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-lg, 14px); padding: clamp(1.5rem, 2.5vw, 2rem); display: grid; align-content: start; gap: 0.85rem; }
+.ind-card h3 { margin: 0.25rem 0 0; }
+.ind-card p { margin: 0; color: var(--ink-soft); }
+.lifecycle { margin-top: 1.25rem; background: var(--green); color: var(--on-dark); border-radius: var(--radius-lg, 14px); padding: clamp(1.5rem, 3vw, 2.25rem) clamp(1.5rem, 3vw, 2.5rem); display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.6fr); gap: 0.75rem 2.5rem; align-items: center; border-left: 4px solid var(--gold); }
+.lifecycle h3 { margin: 0; color: #FFFFFF; }
+.lifecycle p { margin: 0; color: var(--on-dark); font-size: 1.125rem; }
+.practice .checks { margin-top: 0.25rem; }
+.change-stack { max-width: 46rem; gap: 1rem; }
+.change-stack > p { color: var(--ink-soft); font-size: 1.125rem; margin: 0; }
+.change-stack h3 { margin: 1rem 0 0; }
+.change-stack .checks { margin: 0; }
+.change-stack .change-focus { color: var(--ink-soft); font-size: 1.0625rem; margin-top: 0.25rem; }
+.change-stack .change-focus b { color: var(--ink); }
+#expertise .practice { background: var(--paper); border: 1px solid var(--rule); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); }
+.page-head__inner--solo { grid-template-columns: minmax(0, 1fr); }
+.page-head__inner--solo .page-head__main { max-width: 52rem; }
+@media (max-width: 860px) { .ind-cards { grid-template-columns: 1fr; } .lifecycle { grid-template-columns: 1fr; } }
 
 /* Footer brand line */
 .footer__tag { color: var(--on-dark); font-weight: 600; }
@@ -1295,6 +1316,13 @@ a:hover { color: var(--link); }
 :root[data-theme="dark"] .overlap__circle[data-key="research"] circle { stroke: var(--gold-hi); fill: var(--gold-hi); }
 :root[data-theme="dark"] .ledger__logo img { filter: grayscale(1) invert(1); opacity: 0.8; }
 
+
+/* Type scale audit: body text one step larger, headings unchanged */
+body { font-size: 1.0625rem; }
+.lede, .rail__head .lede { font-size: clamp(1.1875rem, 1.1rem + 0.35vw, 1.375rem); }
+.prose p, .stack > p, .ind-card p, .svc p, .practice > p, .journey__grid p, .founder-card__who > p:not([class]) { font-size: 1.125rem; }
+.cta__main > p { font-size: 1.1875rem; }
+.field input, .field select, .field textarea { font-size: 1.0625rem; }
 </style>
 <script>document.documentElement.classList.add('js')</script>
 </head>
@@ -1310,8 +1338,7 @@ a:hover { color: var(--link); }
     <nav class="site-nav" id="site-nav" aria-label="Primary">
       <ul>
         <li><a href="#home" data-nav="home">Home</a></li>
-        <li><a href="#services" data-nav="services">Services</a></li>
-        <li><a href="#industries" data-nav="industries">Industries</a></li>
+        <li><a href="#services" data-nav="services">Services &amp; Industries</a></li>
         <li><a href="#about" data-nav="about">About</a></li>
       </ul>
       <a class="btn btn--primary btn--sm" href="#contact" data-nav="contact">Let’s talk</a>
@@ -1414,7 +1441,7 @@ a:hover { color: var(--link); }
               <li><b>Governance &amp; operating models</b><span>Define decision rights and support ownership across workstreams, including change, release and escalation paths.</span></li>
               <li><b>Business process &amp; platform health</b><span>Trace end-to-end processes to find cross-workstream bottlenecks, control gaps and recurring defects.</span></li>
             </ul>
-            <a class="text-link" href="#services~advisory">See advisory services <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+            <a class="text-link" href="#services~expertise">See advisory services <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
           </article>
           <article class="practice">
             <span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 5l-3 14"/></svg></span>
@@ -1428,7 +1455,7 @@ a:hover { color: var(--link); }
               <li><b>Releases &amp; stabilization</b><span>Assess release effects across workstreams, security and integrations; support testing and stabilization.</span></li>
               <li><b>Reporting &amp; data</b><span>Improve reports, data quality and reconciliation across dependent workstreams and systems.</span></li>
             </ul>
-            <a class="text-link" href="#services~engineering">See technical services <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+            <a class="text-link" href="#services~expertise">See technical services <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
           </article>
         </div>
       </div>
@@ -1440,7 +1467,7 @@ a:hover { color: var(--link); }
       <header class="rail__head">
         <h2 id="health-title" class="statement">Fix root causes. Prevent repeat issues.</h2>
         <p class="lede">Platform health is not a separate phase. It matters before design decisions are finalized, during implementation and throughout production.</p>
-        <p><a class="text-link" href="#services~platform-health">Explore platform health <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></p>
+        <p><a class="text-link" href="#services~deliver">Explore platform health <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></p>
       </header>
       <div class="rail__body">
         <ol class="method method--3">
@@ -1472,9 +1499,9 @@ a:hover { color: var(--link); }
           </svg>
         </figure>
         <ul class="overlap__list">
-          <li><a href="#industries~education" data-key="higher-ed"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M3 9l9-5 9 5M5 10v8M10 10v8M14 10v8M19 10v8M3 20h18"/></svg></span><b>Higher education</b><span>Workday must scale across interconnected finance, HR, procurement, student and administrative workstreams.</span></a></li>
-          <li><a href="#industries~healthcare" data-key="healthcare"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M20.5 8.5c0 5-8.5 11-8.5 11S3.5 13.5 3.5 8.5A4.5 4.5 0 0 1 12 6.4a4.5 4.5 0 0 1 8.5 2.1z"/><path d="M7 12h3l1.5-2 2 4 1.5-2h2"/></svg></span><b>Healthcare</b><span>Health systems need secure, scalable workforce, finance and supply chain processes across connected applications.</span></a></li>
-          <li><a href="#industries~research" data-key="research"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5.5 9.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/></svg></span><b>Research &amp; academic medicine</b><span>Grant-funded work, specialized approvals, compliance and overlapping academic and clinical operations.</span></a></li>
+          <li><a href="#services~education" data-key="higher-ed"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M3 9l9-5 9 5M5 10v8M10 10v8M14 10v8M19 10v8M3 20h18"/></svg></span><b>Higher education</b><span>Workday must scale across interconnected finance, HR, procurement, student and administrative workstreams.</span></a></li>
+          <li><a href="#services~healthcare" data-key="healthcare"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M20.5 8.5c0 5-8.5 11-8.5 11S3.5 13.5 3.5 8.5A4.5 4.5 0 0 1 12 6.4a4.5 4.5 0 0 1 8.5 2.1z"/><path d="M7 12h3l1.5-2 2 4 1.5-2h2"/></svg></span><b>Healthcare</b><span>Health systems need secure, scalable workforce, finance and supply chain processes across connected applications.</span></a></li>
+          <li><a href="#services~research" data-key="research"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5.5 9.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/></svg></span><b>Research &amp; academic medicine</b><span>Grant-funded work, specialized approvals, compliance and overlapping academic and clinical operations.</span></a></li>
         </ul>
       </div>
     </div>
@@ -1494,92 +1521,95 @@ a:hover { color: var(--link); }
   </section>
 </div>
 
-<!-- ======================= SERVICES ======================= -->
+<!-- ======================= SERVICES & INDUSTRIES ======================= -->
 <div data-view="services" hidden>
   <header class="page-head">
     <div class="container page-head__inner">
       <div class="page-head__main">
-        <p class="crumbs"><a href="#home">Home</a> / Services</p>
-        <h1>Clear guidance. Practical execution.</h1>
-        <p class="lede">Choose a focused assessment, a defined technical project or ongoing senior-level guidance. Support is tailored to your situation, not packaged as a large consulting program.</p>
+        <p class="crumbs"><a href="#home">Home</a> / Services &amp; Industries</p>
+        <h1>Industry Insight. Enterprise Expertise.</h1>
+        <p class="lede">Kaiora Consulting partners with higher education, healthcare, and research institutions to strengthen enterprise systems, improve operations, and maximize technology investments.</p>
       </div>
       <nav class="glance" aria-label="On this page">
         <h2 class="glance__title">On this page</h2>
         <ul class="glance__links">
-          <li><a href="#services~advisory">Advisory &amp; value realization <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
-          <li><a href="#services~engineering">Configuration &amp; engineering <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
-          <li><a href="#services~change">Organizational change &amp; M&amp;A <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
-          <li><a href="#services~engage">How to engage <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+          <li><a href="#services~industries">Industries We Serve <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+          <li><a href="#services~expertise">Our Expertise <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+          <li><a href="#services~deliver">What We Deliver <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+          <li><a href="#services~change">Organizational Change &amp; M&amp;A <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="section" id="advisory" aria-labelledby="advisory-title">
+  <section class="section" id="industries" aria-labelledby="ind-title">
+    <div class="container">
+      <header class="chapter-head chapter-head--split">
+        <h2 id="ind-title" class="statement">Industries We Serve</h2>
+        <p class="lede">Our full range of advisory and technical services is available across all industries, tailored to each institution’s priorities and operating environment.</p>
+      </header>
+      <ul class="ind-cards">
+        <li class="ind-card" id="education"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M3 9l9-5 9 5M5 10v8M10 10v8M14 10v8M19 10v8M3 20h18"/></svg></span><h3>Higher Education</h3><p>Supporting the interconnected academic, administrative, financial, and operational needs of colleges and universities.</p></li>
+        <li class="ind-card" id="healthcare"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M20.5 8.5c0 5-8.5 11-8.5 11S3.5 13.5 3.5 8.5A4.5 4.5 0 0 1 12 6.4a4.5 4.5 0 0 1 8.5 2.1z"/><path d="M7 12h3l1.5-2 2 4 1.5-2h2"/></svg></span><h3>Healthcare</h3><p>Helping healthcare organizations strengthen enterprise applications, streamline operations, and navigate complex technology environments.</p></li>
+        <li class="ind-card" id="research"><span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5.5 9.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/></svg></span><h3>Research &amp; Academic Medicine</h3><p>Supporting research-intensive institutions navigating complex administrative, research, and clinical operations.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--surface" id="expertise" aria-labelledby="exp-title">
+    <div class="container">
+      <header class="chapter-head">
+        <h2 id="exp-title" class="statement">One Integrated Approach. Tailored to Your Institution.</h2>
+      </header>
+      <div class="practices">
+        <article class="practice">
+          <span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></span>
+          <h3>Advisory &amp; Strategy</h3>
+          <ul class="checks"><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Enterprise platform strategy</span></li><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Governance and operating models</span></li><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Business process improvement</span></li><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Architecture and scalability</span></li><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Value realization and roadmaps</span></li></ul>
+        </article>
+        <article class="practice">
+          <span class="icon-tile" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 5l-3 14"/></svg></span>
+          <h3>Configuration &amp; Engineering</h3>
+          <ul class="checks"><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Workday configuration and optimization</span></li><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Security and integrations</span></li><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Reporting, data, and automation</span></li><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Testing and release management</span></li><li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Technical remediation and stabilization</span></li></ul>
+        </article>
+      </div>
+      <div class="lifecycle on-dark">
+        <h3>Across the Enterprise Lifecycle</h3>
+        <p>From implementation readiness and transformation through post-go-live stabilization, ongoing optimization, and organizational change, including M&amp;A.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="deliver" aria-labelledby="del-title">
     <div class="container rail">
       <header class="rail__head">
-        <h2 id="advisory-title">Advisory &amp; Value Realization</h2>
-        <p class="lede">Helping leaders understand their options, make sound technology decisions and turn investments into measurable improvements.</p>
+        <h2 id="del-title">What We Deliver</h2>
+        <p class="lede">Practical solutions designed to strengthen enterprise operations and drive measurable value.</p>
       </header>
       <div class="rail__body">
         <div class="svc-grid">
-          <article class="svc"><h3>Value realization &amp; decision support</h3><p>Compare options and cross-workstream tradeoffs; prioritize changes against business value and risk.</p><p class="deliv"><b>Deliverables:</b> options analysis, priority roadmap, success measures.</p></article>
-          <article class="svc"><h3>Enterprise architecture &amp; readiness</h3><p>Assess architecture, security dependencies and cross-workstream impacts; plan for readiness and future scale.</p><p class="deliv"><b>Deliverables:</b> architecture review, dependency map, scalable roadmap.</p></article>
-          <article class="svc"><h3>Governance &amp; operating models</h3><p>Define decision rights and support ownership across workstreams, including change, release and escalation paths.</p><p class="deliv"><b>Deliverables:</b> governance model, ownership matrix, release controls.</p></article>
-          <article class="svc" id="platform-health"><h3>Business process &amp; platform health</h3><p>Trace end-to-end processes to find cross-workstream bottlenecks, control gaps and recurring defects.</p><p class="deliv"><b>Deliverables:</b> process and impact maps, health findings, prioritized fixes.</p></article>
+          <article class="svc"><h3>Strategy &amp; Governance</h3><p>Assessments, roadmaps, governance frameworks, and operating models.</p></article>
+          <article class="svc"><h3>Process &amp; Operational Improvement</h3><p>Process redesign, cross-functional alignment, and optimization.</p></article>
+          <article class="svc"><h3>Technical Solutions</h3><p>Configuration, integrations, security, reporting, and automation.</p></article>
+          <article class="svc"><h3>Transformation &amp; Lifecycle Support</h3><p>Implementation readiness, testing, stabilization, release management, and M&amp;A integration planning.</p></article>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section section--surface" id="engineering" aria-labelledby="engineering-title">
-    <div class="container rail">
-      <header class="rail__head">
-        <h2 id="engineering-title">Configuration &amp; Engineering</h2>
-        <p class="lede">Hands-on work across Workday and connected applications, guided by the full business process, not just one system task.</p>
-      </header>
-      <div class="rail__body">
-        <div class="svc-grid">
-          <article class="svc"><h3>Configuration &amp; security</h3><p>Configure Workday workflows, security roles, approvals and controls with downstream impacts in view.</p><p class="deliv"><b>Deliverables:</b> configured changes, security reviews, tested workflows.</p></article>
-          <article class="svc"><h3>Integrations &amp; automation</h3><p>Connect Workday with procurement, expense, benefits, CRM, ticketing and other systems while protecting end-to-end flows.</p><p class="deliv"><b>Deliverables:</b> integration designs, impact reviews, tested solutions.</p></article>
-          <article class="svc"><h3>Releases &amp; stabilization</h3><p>Assess release effects across workstreams, security and integrations; support testing and stabilization.</p><p class="deliv"><b>Deliverables:</b> impact log, test plan, stabilization priorities.</p></article>
-          <article class="svc"><h3>Reporting &amp; data</h3><p>Improve reports, data quality and reconciliation across dependent workstreams and systems.</p><p class="deliv"><b>Deliverables:</b> report improvements, validation results, data-flow fixes.</p></article>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="change" aria-labelledby="change-title">
-    <div class="container split">
-      <div class="stack">
-        <h2 id="change-title">Organizational change &amp; M&amp;A</h2>
-        <p>Mergers, affiliations and restructuring change organizational structures, security, architecture and connected workstreams.</p>
-        <p>Kaiora can assess system impacts, align cross-workstream processes, plan technical changes and support transition readiness.</p>
-      </div>
-      <div class="help">
-        <h3>Possible starting deliverables</h3>
+  <section class="section section--surface" id="change" aria-labelledby="change-title">
+    <div class="container">
+      <div class="stack change-stack">
+        <h2 id="change-title">Organizational Change &amp; M&amp;A</h2>
+        <p>Mergers, affiliations, restructuring, and institutional growth introduce complexity across organizational structures, security, configurations, and connected enterprise systems.</p>
+        <p>Kaiora helps institutions assess technology impacts, scale security and configuration models, align cross-functional processes, and support technical integration and transition readiness.</p>
+        <h3>Possible Starting Deliverables</h3>
         <ul class="checks">
-          <li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Architecture and dependency map</span></li>
-          <li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Security and integration impact review</span></li>
-          <li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Phased cutover and stabilization plan</span></li>
+          <li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Enterprise architecture and dependency assessment</span></li>
+          <li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Security and configuration scalability assessment</span></li>
+          <li><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Integration impact and transition roadmap</span></li>
         </ul>
-        <p class="note">Focus: enterprise technology integration, not financial or legal transaction advice.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--surface" id="engage" aria-labelledby="engage-title">
-    <div class="container rail">
-      <header class="rail__head">
-        <h2 id="engage-title">Right-sized support.</h2>
-        <p class="lede">A clear scope, a defined outcome and direct senior involvement.</p>
-      </header>
-      <div class="rail__body">
-        <ul class="models">
-          <li class="model"><h3>Focused assessment</h3><p>Get clarity on a specific risk, design choice or performance issue.</p></li>
-          <li class="model"><h3>Defined technical project</h3><p>Resolve a configuration, integration, security or process challenge.</p></li>
-          <li class="model"><h3>Ongoing guidance</h3><p>Access founder-led support for priorities, governance and optimization.</p></li>
-        </ul>
+        <p class="change-focus"><b>Focus:</b> Enterprise technology integration, scalability, and operational continuity—not financial or legal transaction advice.</p>
       </div>
     </div>
   </section>
@@ -1587,84 +1617,11 @@ a:hover { color: var(--link); }
   <section class="cta on-dark" aria-labelledby="svc-cta-title">
     <div class="container section">
       <div class="cta__main">
-        <h2 id="svc-cta-title">Let’s scope the right starting point.</h2>
-        <p>Share your priorities and receive a conversation focused on the actual problem, not a generic sales pitch.</p>
+        <h2 id="svc-cta-title">Your Challenges. Our Expertise.</h2>
+        <p>Whether preparing for transformation, improving an existing Workday environment, or navigating organizational change, Kaiora combines strategic guidance with hands-on execution.</p>
         <div class="cta__actions">
-          <a class="btn btn--light" href="#contact">Start a conversation <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
-          <a href="mailto:hello@kaioraconsulting.com">hello@kaioraconsulting.com</a>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-<!-- ======================= INDUSTRIES ======================= -->
-<div data-view="industries" hidden>
-  <header class="page-head">
-    <div class="container page-head__inner">
-      <div class="page-head__main">
-        <p class="crumbs"><a href="#home">Home</a> / Industries</p>
-        <h1>Complex institutions. Practical solutions.</h1>
-        <p class="lede">Kaiora focuses on environments where enterprise systems must serve specialized processes, many stakeholders and strict accountability.</p>
-      </div>
-      <nav class="glance" aria-label="Sectors on this page">
-        <h2 class="glance__title">Sectors</h2>
-        <ul class="glance__links glance__links--desc">
-          <li><a href="#industries~education"><span><b>Higher education</b>Finance, HR, procurement, student and administrative workstreams.</span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
-          <li><a href="#industries~healthcare"><span><b>Healthcare</b>Workforce, finance and supply chain across connected applications.</span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
-          <li><a href="#industries~research"><span><b>Research &amp; academic medicine</b>Grant-funded work, approvals, compliance, academic and clinical operations.</span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section class="section" id="education" aria-labelledby="he-title">
-    <div class="container industry">
-      <div class="stack">
-        <h2 id="he-title">Higher education</h2>
-        <p>Workday must scale across interconnected finance, HR, procurement, student and administrative workstreams.</p>
-      </div>
-      <div class="help">
-        <h3>Where Kaiora helps</h3>
-        <ul class="tags" aria-label="Focus areas"><li>Cross-workstream impacts</li><li>Security &amp; approvals</li><li>Governance</li><li>Integrations</li><li>Platform health</li></ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--surface" id="healthcare" aria-labelledby="hc-title">
-    <div class="container industry">
-      <div class="stack">
-        <h2 id="hc-title">Healthcare</h2>
-        <p>Health systems need secure, scalable workforce, finance and supply chain processes across connected applications.</p>
-      </div>
-      <div class="help">
-        <h3>Where Kaiora helps</h3>
-        <ul class="tags" aria-label="Focus areas"><li>Architecture</li><li>Access controls</li><li>Integrations</li><li>Process alignment</li><li>Continuity</li></ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="research" aria-labelledby="rs-title">
-    <div class="container industry">
-      <div class="stack">
-        <h2 id="rs-title">Research &amp; academic medicine</h2>
-        <p>Research-intensive institutions navigate grant-funded work, specialized approvals, compliance and overlapping academic and clinical operations.</p>
-      </div>
-      <div class="help">
-        <h3>Where Kaiora helps</h3>
-        <ul class="tags" aria-label="Focus areas"><li>Cross-workstream dependencies</li><li>Grant-related workflows</li><li>Security</li><li>Reporting</li></ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta on-dark" aria-labelledby="ind-cta-title">
-    <div class="container section">
-      <div class="cta__main">
-        <h2 id="ind-cta-title">Does your institution have a complex Workday question?</h2>
-        <p>Tell me what you are working through. We can identify a practical starting point.</p>
-        <div class="cta__actions">
-          <a class="btn btn--light" href="#contact">Start a conversation <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
-          <a href="mailto:hello@kaioraconsulting.com">hello@kaioraconsulting.com</a>
+          <a class="btn btn--light" href="#contact">Let’s Connect <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="#services~expertise">Explore Our Services</a>
         </div>
       </div>
     </div>
@@ -1674,21 +1631,12 @@ a:hover { color: var(--link); }
 <!-- ======================= ABOUT ======================= -->
 <div data-view="about" hidden>
   <header class="page-head">
-    <div class="container page-head__inner">
+    <div class="container page-head__inner page-head__inner--solo">
       <div class="page-head__main">
         <p class="crumbs"><a href="#home">Home</a> / About</p>
         <h1>Experience on your side of the table.</h1>
         <p class="lede">A founder-led practice grounded in enterprise operations, Workday architecture and the realities of owning and improving complex systems.</p>
       </div>
-      <aside class="glance" aria-label="Gerta Gjata at a glance">
-        <h2 class="glance__title">Gerta Gjata at a glance</h2>
-        <dl class="glance__facts">
-          <div><dt>Experience</dt><dd>Over 20 years in enterprise technology</dd></div>
-          <div><dt>Sectors</dt><dd>Higher education, healthcare and consulting</dd></div>
-          <div><dt>Workday</dt><dd>HCM, Finance, Supply Chain and Student</dd></div>
-          <div><dt>Particular depth</dt><dd>Security, enterprise architecture, platform governance and operational optimization</dd></div>
-        </dl>
-      </aside>
     </div>
   </header>
 
@@ -1887,19 +1835,18 @@ a:hover { color: var(--link); }
         <p><a href="mailto:hello@kaioraconsulting.com">hello@kaioraconsulting.com</a></p>
       </div>
       <div class="footer__col">
-        <h2>Services</h2>
+        <h2>Services &amp; Industries</h2>
         <ul>
-          <li><a href="#services~advisory">Advisory &amp; value realization</a></li>
-          <li><a href="#services~engineering">Configuration &amp; engineering</a></li>
-          <li><a href="#services~change">Organizational change &amp; M&amp;A</a></li>
-          <li><a href="#services~engage">How to engage</a></li>
+          <li><a href="#services~industries">Industries We Serve</a></li>
+          <li><a href="#services~expertise">Our Expertise</a></li>
+          <li><a href="#services~deliver">What We Deliver</a></li>
+          <li><a href="#services~change">Organizational Change &amp; M&amp;A</a></li>
         </ul>
       </div>
       <div class="footer__col">
         <h2>Company</h2>
         <ul>
-          <li><a href="#industries">Industries</a></li>
-          <li><a href="#about">About Gerta</a></li>
+          <li><a href="#about">About the Founder</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -6162,7 +6109,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var FORM_KEY = 'b37ca0e7-9bee-49bd-8d5d-204e075d0361';
   var FORM_ENDPOINT = 'https://api.web3forms.com/submit';
   var STAGE_KEY = 'kaiora.stage';
-  var VIEWS = ['home', 'services', 'industries', 'about', 'contact'];
+  var VIEWS = ['home', 'services', 'about', 'contact'];
   var memory = {};
   function store(key, value) {
     try {
@@ -6200,6 +6147,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function route(hash, opts) {
     opts = opts || {};
     var r = parse(hash);
+    if (r.view === 'industries') { r = { view: 'services', section: r.section || 'industries' }; }
     if (VIEWS.indexOf(r.view) === -1) {
       // Not a page: treat as an anchor on the current page (skip link, etc.)
       var el = r.view && document.getElementById(r.view);
@@ -6218,7 +6166,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (a.getAttribute('data-nav') === name && !a.classList.contains('btn')) a.setAttribute('aria-current', 'page');
       else a.removeAttribute('aria-current');
     });
-    var titles = { home: 'Kaiora Consulting · Clarity in Workday Complexity', services: 'Services · Kaiora Consulting', industries: 'Industries · Kaiora Consulting', about: 'About Gerta Gjata · Kaiora Consulting', contact: 'Contact · Kaiora Consulting' };
+    var titles = { home: 'Kaiora Consulting · Clarity in Workday Complexity', services: 'Services & Industries · Kaiora Consulting', about: 'About Gerta Gjata · Kaiora Consulting', contact: 'Contact · Kaiora Consulting' };
     document.title = titles[name];
     if (changed) {
       window.scrollTo({ top: 0, behavior: 'auto' });
